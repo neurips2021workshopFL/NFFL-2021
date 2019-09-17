@@ -130,7 +130,7 @@
 										 </td>
 								</tr>
 							 	<tr><td>10:00-10:45 AM</td>	 <td> Invited Talk: </br> Natesh Pillai
-									</br> Accelerating MCMC algorithms in computer intensive models and applications to large data sets </br> </td>
+									</br> <a href="#np">Accelerating MCMC algorithms in computer intensive models and applications to large data sets</a> </br> </td>
 								</tr>
 								<tr><td>10:45-11:00 AM</td>	 <td>Coffee Break </td>
 								</tr>
@@ -160,12 +160,12 @@
 								</tr>
 								<tr>
 									<td>3:00-3:45 PM</td>	 <td> Invited Talk: </br> Justin Solomon
-									</br> Approximating and Manipulating Probability Distributions with Transport </br>
+									</br> <a href="#js">Approximating and Manipulating Probability Distributions with Transport</a> </br>
 										 </td>
 								</tr>
 								<tr>
 									<td>3:45-4:30 PM</td>	 <td> Invited Talk: </br> Vikash Mansinghka
-									</br> Probabilistic Programming and Artificial Intelligence </br>
+									</br> <a href="#vm">Probabilistic Programming and Artificial Intelligence</a> </br>
 										 </td>
 								</tr>
 
@@ -287,7 +287,33 @@
 								<p style="text-align:justify">Bayesian neural networks (BNN) are often described as a more practical, scalable alternative to other forms of distributions over functions (e.g. Gaussian processes).
 However, "easy" or "obvious" ways of specifying priors don't necessarily result in the properties that we expect--or want.  In this talk, I will talk about some of the work in
 our group toward creating BNN models with nicer properties, as well as incorporating expert knowledge.  Finally, I'll touch on some considerations for inference.  This is joint
-work with: Soumya Ghosh, Jiayu Yao, Yaniv Yacoby, Weiwei Pan, Melanie Pradier, Wanqian Yang, Moritz Graule, Lars Lorch, Anirudh Suresh, Srivatsan Srinivasan, Stefan Depeweg, Miguel Hernandez-Lobato</p>
+work with: Soumya Ghosh, Jiayu Yao, Yaniv Yacoby, Weiwei Pan, Melanie Pradier, Wanqian Yang, Moritz Graule, Lars Lorch, Anirudh Suresh, Srivatsan Srinivasan, Stefan Depeweg, Miguel Hernandez-Lobato
+								</p>
+
+			<h2 style="text-align:left" id="np">Accelerating MCMC algorithms in computer intensive models and applications to large data sets, Natesh Pillai</h2>
+								<p style="text-align:justify">We discuss a new framework for accelerating MCMC algorithms for sampling from posterior distributions in the context of computationally intensive models. We proceed by constructing
+local surrogates of the forward model within the Metropolis-Hastings kernel, borrowing ideas from deterministic approximation theory, optimization, and experimental design. Our work
+departs from previous work in surrogate-based inference by exploiting useful convergence characteristics of local approximations. We prove the ergodicity of our approximate Markov chain
+and show that it samples asymptotically from the exact posterior distribution of interest. We describe variations of the algorithm that construct either local polynomial approximations
+or Gaussian process regressors, thus spanning two important classes of surrogate models. Our theoretical results reinforce the key observation underlying this paper: when the likelihood
+has some local regularity, the number of model evaluations per MCMC step can be greatly reduced, without incurring significant bias in the Monte Carlo average. Our numerical experiments
+demonstrate order-of-magnitude reductions in the number of forward model evaluations used in representative ODE or PDE inference problems, in both real and synthetic data examples. We will
+also give applications of our theory for problems involving intractable likelihoods and large data sets. Joint work with Andrew Davis, Patrick Conrad, Youssef Marzouk, Aaron Smith.
+								</p>
+			<h2 style="text-align:left" id="js">Approximating and Manipulating Probability Distributions with Transport, Justin Solomon</h2>
+								<p style="text-align:justify">The theory of optimal transport defines a metric on the space of probability distributions that lifts the metric of the underlying geometric domain.  The structure of this geometry on the space of probability distributions has several favorable properties for tasks in inference and learning.  In this talk, I will  introduce recent work applying transport to a variety of computational tasks in learning and statistics, including computation of coresets for efficient and approximate learning, distributionally-robust learning in the semi-supervised setting, and overcoming symmetry issues in Bayesian inference.  I also will discuss computational techniques employed to overcome the computational cost of evaluating and manipulating transport distances in practice.  [Joint work with E. Chien, S. Claici, C. Frogner, F. Mirzazadeh, P. Monteiller, and M. Yurochkin]
+								</p>
+			<h2 style="text-align:left" id="vm">Probabilistic Programming and Artificial Intelligence, Vikash Mansingka</h2>
+			<p style="text-align:justify"> Probabilistic programming is an emerging field at the intersection of programming languages, probability theory, and artificial intelligence. This talk will show how to use recently
+developed probabilistic programming languages to build systems for robust 3D computer vision, without requiring any labeled training data; for automatic modeling of complex real-world time series;
+and for machine-assisted analysis of experimental data in synthetic biology that is too small and messy for standard approaches from machine learning and statistics.
+This talk will use these applications to illustrate recent technical innovations in probabilistic programming that formalize and unify modeling approaches from multiple eras of AI, including
+generative models, neural networks, symbolic programs, causal Bayesian networks, and hierarchical Bayesian modeling. Specifically, it will present languages in which models are represented using
+executable code, and in which inference is programmable using novel constructs for Monte Carlo, optimization-based, and neural inference. It will also present techniques for Bayesian learning of
+probabilistic program structure and parameters from real-world data. Finally, this talk will review challenges and research opportunities in the development and use of general-purpose probabilistic
+programming languages that performant enough and flexible enough for real-world AI engineering.
+			</p>
+
 							</section>
 					</div>
 
