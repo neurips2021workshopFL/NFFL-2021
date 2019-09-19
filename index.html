@@ -134,7 +134,8 @@
 								<tr><td>10:45-11:00 AM</td>	 <td>Coffee Break </td>
 								</tr>
 								<tr>
-									<td> 11:00-11:45 AM	</td>  <td> Invited Talk:  </br>  Tamara Broderick </td>
+									<td> 11:00-11:45 AM	</td>  <br> Invited Talk:  </br>  Tamara Broderick </br> <a href="tb">The Kernel Interaction Trick: Fast Bayesian Discovery of
+									Pairwise Interactions in High Dimensions</a> </td>
 								</td>
 								</tr>
 								<tr>
@@ -302,6 +303,28 @@ has some local regularity, the number of model evaluations per MCMC step can be 
 demonstrate order-of-magnitude reductions in the number of forward model evaluations used in representative ODE or PDE inference problems, in both real and synthetic data examples. We will
 also give applications of our theory for problems involving intractable likelihoods and large data sets. Joint work with Andrew Davis, Patrick Conrad, Youssef Marzouk, Aaron Smith.
 								</p>
+			<h2 style="text-align:left" id="tb"> The Kernel Interaction Trick: Fast Bayesian Discovery of
+Pairwise Interactions in High Dimensions, Tamara Broderick</h2>
+			<p style="text-align:justify">Discovering interaction effects on a response of interest is
+a fundamental problem faced in biology, medicine, economics, and many
+other scientific disciplines. In theory, Bayesian methods for
+discovering pairwise interactions enjoy many benefits such as coherent
+uncertainty quantification, the ability to incorporate background
+knowledge, and desirable shrinkage properties. In practice, however,
+Bayesian methods are often computationally intractable for even
+moderate-dimensional problems. Our key insight is that many
+hierarchical models of practical interest admit a particular Gaussian
+process (GP) representation; the GP allows us to capture the posterior
+with a vector of O(p) kernel hyper-parameters rather than O(p^2)
+interactions and main effects. With the implicit representation, we
+can run Markov chain Monte Carlo (MCMC) over model hyper-parameters in
+time and memory linear in p per iteration. We focus on
+sparsity-inducing models and show on datasets with a variety of
+covariate behaviors that our method: (1) reduces runtime by orders of
+magnitude over naive applications of MCMC, (2) provides lower Type I
+and Type II error relative to state-of-the-art LASSO-based approaches,
+and (3) offers improved computational scaling in high dimensions
+relative to existing Bayesian and LASSO-based approaches.</p>
 			<h2 style="text-align:left" id="jvdm">Integrating Deep Learning and Probabilistic Programming, Jan-Willem Van de Meent</h2>
 			<p style="text-align:justify">A clear lesson from ongoing advances in deep learning is that large overparameterized models can achieve unsurpassed performance in settings where a sufficiently large amount
 of data and computation are available. A much more open question is how we can improve the generalization properties of these models when we have a limited amount of data,
