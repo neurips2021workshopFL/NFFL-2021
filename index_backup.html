@@ -1,0 +1,401 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>New Frontier in Federated Learning 2021</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css?v=0.0" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<!-- <span class="logo"><img src="images/logo_mit_ibm.png" alt="" /></span> -->
+						<h1 style="text-align:justify">New Frontiers in Federated Learning:<br /></h1> 
+						<h1 style="text-align:left"> Privacy, Fairness, Robustness, Personalization and Data Ownership</h1>
+						<p style="text-align:left"> Location: Virtual Meeting at NeurIPS-2021<br /> (<a href="#dir">Getting Here</a>)</p>
+						<p style="text-align:left"> December 13-14, 2021 </p>
+					</header>
+
+				<!-- Nav 
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Introduction</a></li>
+							<li><a href="#cfp">Call For Participation</a></li>
+							<li><a href="#sched">Schedule</a></li>
+							<li><a href="#inv">Invited Speakers</a></li>
+							<li><a href="#org">Committee</a></li>
+							<li><a href="#papers">Accepted Papers</a></li>
+						</ul>
+					</nav>
+				-->
+				
+					<table class="navigation">
+						<tr>
+							<td class="navigation">
+								<a class="current" title="Home Page" href=".">Home</a>
+							</td>
+							<td class="navigation">
+								<a title="Call for Papers" href="CFP">Call For Participation</a>
+							</td>
+							<td class="navigation">
+								<a title="Schedule" href="schedule">Schedule</a>
+							</td>
+							<td class="navigation">
+								<a title="Invited Speakers" href="speakers">Invited Speakers</a> 
+							</td>
+							<td class="navigation">
+								<a title="Accepted Papers" href="papers">Accepted Papers</a>
+							</td>
+							<td class="navigation">
+								<a title="Program Committee" href="committee">Committee</a>
+							</td>
+						</tr>
+					</table>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>About</h2>
+										</header>
+										<!-- <p style="text-align:center"><img src="images/banner_1.jpg" alt="MIT Watson AI Lab, Cambridge, MA"
+											width="1024" height="256">
+										</p> -->
+										<p style="text-align:justify"> Federated Learning (FL) has recently emerged as the de facto framework for distributed machine learning (ML) that preserves the privacy of data, especially in the proliferation of mobile and edge devices with their increasing capacity for storage and computation. To fully utilize the vast amount of geographically distributed, diverse and privately owned data that is stored across these devices, FL provides a platform on which local devices can build their own local models whose training processes can be synchronized via sharing differential parameter updates. This was done without exposing their private training data, which helps mitigate the risk of privacy violation, in light of recent policies such as the General Data Protection Regulation (GDPR). Such potential use of FL has since then led to an explosive attention from the ML community, resulting in a vast, growing amount of both theoretical and empirical literature that push FL closer to being the new standard of ML as a democratized data analytic service.
+										</p>
+
+										<p  style="text-align:justify"> Interestingly, as FL comes closer to being deployable in real-world scenarios, it also surfaces a growing set of challenges on trustworthiness, fairness, auditability, scalability, robustness, security, privacy preservation, decentralizability, data ownership and personalizability that are all becoming increasingly important in many interrelated aspects of our digitized society. Such challenges are particularly important in economic landscapes that do not have the presence of big tech corporations with big data and are instead driven by government agencies and institutions with valuable data locked up or small-to-medium enterprises & start-ups with limited data and little funding. With this forethought, the workshop envisions the establishment of an AI ecosystem that facilitates data and model sharing between data curators as well as interested parties in the data and models while protecting personal data ownership. 
+										</p>
+										
+										<p  style="text-align:justify"> This raises the following questions: 
+										</p>
+
+										<p  style="text-align:justify"> 1. Data curators may own different types of ML models. Due to their own interest in protecting the IP, there is no reason to believe that they would be willing to share information on their model architectures or parameters. Thus, if we are to facilitate meaningful collaboration in such cases, how then do data curators aggregate and distill latent knowledge from their heterogeneous, black-box models to bring home the distilled model(s) for future use? 
+										</p>
+										
+										<p  style="text-align:justify"> 2. How do we incentivize data curators to come together to share their data for model building? How does a participant know that the other data curator(s) are contributing valuable, authentic and safe data to the collaboration (and vice versa)? How do we incentivize them to collaborate? In this view, there is a need to consider data auditability and fairness in data sharing based on their respective contributions. Furthermore, as far as personal data ownership goes, how do we guarantee the right to be forgotten in terms of the participant’s data footprint? 
+										</p>
+										
+										<p  style="text-align:justify"> We believe addressing these challenges will make another key milestone in shaping FL as a democratized machine learning (ML) service supported by a trustworthy AI ecosystem built on the aforementioned concepts.
+										</p>
+										
+									</div>
+
+							</section>
+
+						<!-- First Section -->
+							<section id="cfp" class="main special">
+								<header class="major">
+									<h2>Call For Participation</h2>
+								</header>
+								<p style="text-align:justify">
+						 We invite researchers to submit work in (but not limited to) the following areas:
+		<ul style="text-align:left">
+			<li>Personalized Federated Learning and/or Meta Learning.</li>
+			<li>Differential Privacy in Federated Learning.</li>
+			<li>Fairness in Federated Learning.</li>
+			<li>Optimization for Large-Scale Federated Learning Systems.</li>
+			<li>Certifiable Robustness for Federated Learning.</li>
+			<li>Trustworthiness, Auditability and Verification in Federated Learning.</li>
+			<li>Model Aggregation and Protecting Personal Data Ownership.</li>
+	</ul>
+</P>
+
+<h2 style="text-align:left">Submissions</h2>
+<p style="text-align:justify">
+	Submissions will be double blind: Reviewers will not see author names while reviewing, and authors will not know the identities of their reviewers. We use CMT to host paper submissions and allow for disseminating paper reviews and recommendations. The program will include keynote presentations from the invited speakers, oral presentations and posters.
+</p>
+<p style="text-align:justify">
+	Authors can revise their papers as many times as needed up to the paper submission deadline (see below). Changes to paper will not be allowed once the submission deadline has passed. Papers must be submitted using CMT. We will open the submission site in August. Each submission is expected to strictly conform to NeurIPS-2021 format and an upper limit of 9 pages for the main text, with unlimited additional pages for citations. Authors might also use as many pages of appendices as they wish but the reviewers are not required to read these. Authors have the right to withdraw papers from consideration at any time. 
+	</p>
+
+
+	<h2 style="text-align:left"> Key Dates </h2>
+	<ul style="text-align:left">
+        <li>Submission Opening: 15 August 2021 (tentatively) </li>
+		<li>Submission Deadline: 01 October 2021 (tentatively) </li>
+		<li>Workshop Date: 13 December 2021 (tentatively) </li>
+	</ul>
+
+
+	<h2 style="text-align:left">Attendance</h2>
+	<p style="text-align:justify"> For each accepted paper,
+	at least one author must attend the workshop to present the work. Among the accepted papers, we will select 6 outstanding works to be presented as contributed talks. Each talk is allocated a 15-minute slot including Q/A.
+	<br>
+
+	</section>
+
+						<!-- Agenda -->
+							<section id="sched" class="main special">
+								<header class="major">
+									<h2>Tentative Schedule (EST Time)</h2>
+								</header>
+								<table style="width:100%">
+								<tr>
+									<td> <strong>Session 1</strong> </td> <td> </td>  </br>
+								</tr>
+								<tr>
+									<td>8:30 AM - 9:00 AM</td>	 <td> Pre-workshop networking on Slack/Zoom </br>
+										 </td>
+								</tr>
+								<tr>
+									<td>9:00 AM - 9:15 AM</td>	 <td> Opening Remarks </br>
+										 </td>
+								</tr>
+								<tr>
+								<td>9:15 AM - 10:00 AM</td>	 <td>Invited Talk 1 </br>
+									</td>
+								</tr>
+								<tr>
+								<td>10:00 AM - 10:15 AM</td>	 <td>Contributed Talk 1 </br>
+									</td>
+								</tr>
+								<tr>
+								<td>10:15 AM - 10:30 AM</td>	 <td>Contributed Talk 2 </br>
+									</td>
+								</tr>
+								<tr>
+								<td>10:30 AM - 10:45 AM</td>	 <td>Contributed Talk 3 </br>
+									</td>
+								</tr>
+								<tr>
+								<td>10:45 AM - 11:30 AM</td>	 <td>Invited Talk 2 </br>
+									</td>
+								</tr>
+								<tr>
+									<td> <strong>Session 2</strong> </td> <td> </td> </br>
+								</tr>
+								<tr>
+									<td>11:30 AM - 1:00 PM</td>	 <td> Virtual lunch break with opportunities </br> for socialization on Slack/Zoom </br>
+										 </td>
+								</tr>
+								<tr>
+								<td>1:00 PM - 1:45 PM</td>	 <td>Invited Talk 3 </br>
+									</td>
+								</tr>
+								<tr>
+								<td>1:45 PM - 2:00 PM</td>	 <td>Contributed Talk 4 </br>
+									</td>
+								</tr>
+								<tr>
+								<td>2:00 PM - 2:15 PM</td>	 <td>Contributed Talk 5 </br>
+									</td>
+								</tr>
+								<tr>
+								<td>2:15 PM - 2:30 PM</td>	 <td>Contributed Talk 6 </br>
+									</td>
+								</tr>
+								<tr>
+									<td> <strong>Session 3</strong> </td> <td> </td> </br>
+								</tr>
+								<tr>
+									<td>2:30 PM - 3:30 PM</td>	 <td> Poster session with opportunities </br> for socialization on Slack/Zoom </br>
+										 </td>
+								</tr>
+								<tr>
+								<td>3:30 PM - 4:15 PM</td>	 <td>Invited Talk 4 </br>
+									</td>
+								</tr>
+								<tr>
+								<td>4:15 PM - 5:00 PM</td>	 <td>Invited Talk 5 </br>
+									</td>
+								</tr>
+								<tr>
+								<td>5:00 PM - 5:50 PM</td>	 <td>Panel Discussion</br>
+									</td>
+								</tr>
+								<tr>
+								<td>5:50 PM - 6:00 PM</td>	 <td>Closing Remarks </br>
+									</td>
+								</tr>
+								<tr>
+								<td>6:00 PM - 7:00 PM</td>	 <td>Post-workshop networking on Slack/Zoom </br>
+									</td>
+								</tr>
+								</table>
+
+							</section>
+
+							<!-- Invited Speakers -->
+							<section id="inv" class="main special">
+								<header class="major">
+									<h2>Invited Speakers</h2>
+								</header>
+							<ul class="features">
+								<li>
+									<span><img src="images/default.png" height="192"/></span>
+									<h3><a href="https://www.media.mit.edu/people/sandy/overview/" target="_blank">Alex Pentland</a></h3>
+									<p> Professor, MIT </p>
+								</li>
+								<li>
+									<span><img src="images/default.png" height="192"/></span>
+									<h3><a href="https://people.eecs.berkeley.edu/~dawnsong/" target="_blank">Dawn Song</a></h3>
+									<p> Professor, UC Berkeley </p>
+								</li>
+								<li>
+									<span><img src="images/default.png" height="192"/></span>
+									<h3><a href="https://people.eecs.berkeley.edu/~dawnsong/" target="_blank">Asu Ozdaglar</a></h3>
+									<p> Professor, MIT </p>
+								</li>
+								<li>
+									<span><img src="images/default.png" height="192"/></span>
+									<h3><a href="https://www.cwi.nl/people/marten-van-dijk" target="_blank">Marten van Dijk</a></h3>
+									<p> Group Leader, CWI </p>
+								</li>
+								<li>
+									<span><img src="images/default.png" height="192"/></span>
+									<h3><a href="https://www.cs.cmu.edu/~smithv/" target="_blank">Virginia Smith</a></h3>
+									<p> Assistant Professor, CMU </p>
+								</li>
+							</ul>
+							</section>
+
+							<!-- Organizers -->
+							<section id="org" class="main special">
+							<h2>Organizing Committee</h2>
+							
+							<ul class="features">
+								<li>
+									<span><img src="images/N_Hoang.png" height="192"/></span>
+									<h3><a href="https://htnghia87.github.io/" target="_blank">Nghia Hoang</a></h3>
+									<p> Senior Research Scientist, </br> AWS AI Labs, Amazon </p>
+								</li>
+								<li>
+									<span><img src="images/L_Nguyen.png" height="192"/></span>
+									<h3><a href="https://lamnguyen-mltd.github.io/" target="_blank">Lam M. Nguyen</a></h3>
+									<p> Research Staff Member, </br> IBM Research </p>
+								</li>
+								<li>
+									<span><img src="images/PY_Chen.png" height="192"/></span>
+									<h3><a href="https://sites.google.com/site/pinyuchenpage" target="_blank">Pin-Yu Chen</a></h3>
+									<p> Research Staff Member, </br> IBM Research </p>
+								</li>
+								<li>
+									<span><img src="images/L_Weng.png" height="192"/></span>
+									<h3><a href="https://lilyweng.github.io/" target="_blank">Tsui-Wei (Lily) Weng</a></h3>
+									<p> Assistant Professor, </br> UC San Diego </p>
+								</li>
+								<li>
+									<span><img src="images/S_Magliacane.png" height="192"/></span>
+									<h3><a href="https://smaglia.wordpress.com/" target="_blank">Sara Magliacane</a></h3>
+									<p> Assistant Professor, </br> University of Amsterdam </p>
+								</li>
+								<li>
+									<span><img src="images/B_Low.png" height="192"/></span>
+									<h3><a href="https://www.comp.nus.edu.sg/~lowkh/research.html" target="_blank">Kian Hsiang (Bryan) Low</a></h3>
+									<p> Associate Professor, </br> National University of Singapore </p>
+								</li>
+								<li>
+									<span><img src="images/A_Deoras.png" height="192"/></span>
+									<h3><a href="https://www.linkedin.com/in/anoopdeoras/" target="_blank">Anoop Deoras</a></h3>
+									<p> Applied Research Manager, </br> AWS AI Labs, Amazon</p>
+								</li>
+								
+							</ul>
+
+							<!--
+							<table style="float:center">
+							  <tr>
+							    <td><img src="images/N_Hoang.png" height="192"/></td>
+							    <td><img src="images/M_Yurokchin.png" height="192"/></td>
+									<td><img src="images/K_Severson.png" height="192"/></td>
+							  </tr>
+							  <tr>
+							    <td><a href="https://sites.google.com/site/idmhtn/home/publications">Nghia Hoang</a> </td>
+							    <td><a href="http://www-personal.umich.edu/~moonfolk/">Mikhail Yurokchin</td>
+									<td><a href="https://kseverso.github.io">Kristen Severson</a></td>
+							  </tr>
+								<tr>
+									<td><img src="images/P_Sattigeri.png" height="192"/></td>
+									<td><img src="images/A_Srivastava.png" height="192"/></td>
+									<td><img src="images/S_Ghosh.png" height="192"/></td>
+								</tr>
+								<tr>
+									<td><a href="">Prasanna Sattigeri</a></td>
+									<td><a href="">Akash Srivastava</a></td>
+									<td><a href="">Soumya Ghosh</a></td>
+								</tr>
+							</table>
+							-->
+							
+							<h2>Program Committee</h2>
+							<p style="text-align:justify"> TBD
+							</p>
+							</section>
+
+							<!-- Spotlights -->
+							<section id="spot" class="main special">
+								<header class="major">
+									<h2>Contributed Talks</h2>
+								</header>
+							<p style="text-align:justify"> TBD
+							</p>
+							</section>
+							
+							<!-- Invited Talk -->
+							<section id="inv" class="main special">
+								<header class="major">
+									<h2>Invited Talks</h2>
+								</header>
+							<p style="text-align:justify"> TBD
+							</p>
+
+							</section>
+							
+							<!-- Accepted Papers -->
+							<section id="papers" class="main special">
+								<header class="major">
+									<h2>Accepted Papers</h2>
+								</header>
+							<p style="text-align:justify"> TBD
+							</p>
+							</section
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section id="dir">
+							<h2>Location</h2>
+							<p style="text-align:justify">NeurIPS 2021 Virtual Workshop</p>
+
+
+						</section>
+						<section>
+							<h2>Contact</h2>
+								<dd>Nghia Hoang (AWS AI Labs, Amazon). E-mail: tnhoang@amazon.com </dd>
+								<dd>Lam M. Nguyen (IBM Research). E-mail: LamNguyen.MLTD@ibm.com </dd>
+						<p class="copyright">&copy; Workshop Organizing Committee.</p>
+					</footer>
+
+					<!-- hitwebcounter Code START -->
+					<a href="https://www.hitwebcounter.com" target="_blank">
+					<img src="https://hitwebcounter.com/counter/counter.php?page=7844189&style=0008&nbdigits=5&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="100" /></a>   
+					
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
